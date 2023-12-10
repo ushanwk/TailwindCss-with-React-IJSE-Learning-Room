@@ -4,8 +4,8 @@ export class Navbar extends Component {
     render() {
         return (
             <>
-                <div className="bg-red-500 p-2">
-                    <h1 className="text-center text-amber-400">This is NavBar</h1>
+                <div className="bg-blue-400 p-3">
+                    <h1 className="text-center text-white font-bold">This is NavBar</h1>
                 </div>
             </>
         );
