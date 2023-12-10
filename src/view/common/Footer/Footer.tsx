@@ -1,5 +1,5 @@
 import {Component} from "react";
-import copyright from "../../image/copyright.png";
+import copyright from "../../../image/copyright.png";
 
 export class Footer extends Component {
     render() {

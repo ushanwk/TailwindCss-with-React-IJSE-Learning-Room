@@ -1,5 +1,5 @@
 import {Component} from "react";
-import logo from "../../image/instagram.png";
+import logo from "../../../image/instagram.png";
 import {Link} from "react-router-dom";
 
 export class Navbar extends Component {

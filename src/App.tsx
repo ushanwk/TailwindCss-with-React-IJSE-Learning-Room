@@ -1,19 +1,17 @@
 import React from 'react';
 import './App.css';
-import {Navbar} from "./view/Navbar/Navbar";
-import {MainContent} from "./view/MainContent/MainContent";
-import {Footer} from "./view/footer/Footer";
-import {Route, Routes} from "react-router-dom";
+import {Navbar} from "./view/common/Navbar/Navbar";
+import {MainContent} from "./view/common/MainContent/MainContent";
+import {Footer} from "./view/common/Footer/Footer";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
-      <>
-          <div>
+      <BrowserRouter>
               <Navbar/>
               <MainContent/>
               <Footer/>
-          </div>
-      </>
+      </BrowserRouter>
   );
 }
 
